@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - my entry point
- * Description: it prints out "Programming is like building a multilingual puzzle
- * Return : Always 0 (Success)
+ * Description: it prints out "Programming is like building a multilingual puzzle"
+ * Return: 0
 */
 int main(void)
 {
