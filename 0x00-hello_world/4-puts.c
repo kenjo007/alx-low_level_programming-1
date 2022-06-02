@@ -4,9 +4,8 @@
  *main - my entry point
  * description - using the puts function for our code
  * it prints out "Programming is like building a multilingual puzzle"
- *Return - Always o (success)
- * description - returns 0 for every correct line of code
- * it returns 0 if there is no error in the output
+ * with the correct output, it returns 0 
+ *Return - Always 0 (success)
  */
 int main(void)
 {
