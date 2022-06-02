@@ -6,7 +6,7 @@
  * it prints out "prgrammint is like building a multilingual puzzle"
  * Return : Always 0 (success0
  * description : returning 0 for our code
- * it gives zero for correct output
+ * it prints out (0) for correct output
  */
 int main(void)
 {
