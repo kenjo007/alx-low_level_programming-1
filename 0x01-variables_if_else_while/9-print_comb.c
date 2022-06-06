@@ -6,22 +6,17 @@
  */
 int main(void)
 {
-	int tens;
-	int ones;
+	int a;
 
-	for (tens = 0; tens <= 9; tens++)
+	for (a = 0; a <= 9; a++)
 	{
-		for (ones = tens + 1; ones <= 9; ones++)
+		putchar('0' + a);
+		if (a != 9)
 		{
-			putchar(tens + '0');
-			putchar(ones + '0');
-
-			if (tens < 8)
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			putchar(',');
+			putchar(' ');
 		}
 	}
+	putchar('\n');
 	return (0);
 }
